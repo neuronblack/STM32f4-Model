@@ -1,0 +1,118 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f40_41xxx.s)(0x542E6B02)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 517" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (.\main.c)(0x57D7D570)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\SYSTEM\delay\delay.c)(0x55BF04B1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\SYSTEM\sys\sys.c)(0x57BE9D07)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\SYSTEM\usart\usart.c)(0x57AFBC2E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (.\exti.c)(0x57BCFB4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+I (exti.h)(0x57BCFAE0)
+F (..\HARDWARE\DELAY.c)(0x57D7D56A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\delay_1.o --omf_browse .\objects\delay_1.crf --depend .\objects\delay_1.d)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\DELAY.h)(0x57A92C09)
+F (..\HARDWARE\KEY.c)(0x5797563A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\KEY.H)(0x5797494E)
+F (..\HARDWARE\LED.c)(0x5797570F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\LED.h)(0x5795F476)
+F (..\HARDWARE\NVIC.c)(0x57AB15E4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (..\HARDWARE\NVIC.h)(0x57AF20E8)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\HARDWARE\USART.c)(0x57BE9B06)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\usart_1.o --omf_browse .\objects\usart_1.crf --depend .\objects\usart_1.d)
+I (..\HARDWARE\USART.h)(0x57AFB3A2)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\HARDWARE\NVIC.h)(0x57AF20E8)
+F (..\HARDWARE\TIM3.c)(0x57C565C8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\tim3.o --omf_browse .\objects\tim3.crf --depend .\objects\tim3.d)
+I (..\HARDWARE\TIM3.h)(0x57C561D8)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+F (..\HARDWARE\TIM14.c)(0x57D7ACB9)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\tim14.o --omf_browse .\objects\tim14.crf --depend .\objects\tim14.d)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\TIM14.h)(0x57C633A8)
+F (..\HARDWARE\i2c.c)(0x57DE7E5B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE -I..\HARDWARE-I C:\Users\GEEK\Documents\test\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DSTM32F40_41xxx-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\DELAY.h)(0x57A92C09)

@@ -1,0 +1,9 @@
+.\objects\key.o: ..\HARDWARE\KEY.c
+.\objects\key.o: ..\SYSTEM\sys\stm32f4xx.h
+.\objects\key.o: ..\SYSTEM\sys\core_cm4.h
+.\objects\key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\key.o: ..\SYSTEM\sys\core_cmInstr.h
+.\objects\key.o: ..\SYSTEM\sys\core_cmFunc.h
+.\objects\key.o: ..\SYSTEM\sys\core_cm4_simd.h
+.\objects\key.o: ..\SYSTEM\sys\system_stm32f4xx.h
+.\objects\key.o: ..\HARDWARE\KEY.H
